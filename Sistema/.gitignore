@@ -1,0 +1,39 @@
+# --- PADRÃO SPRING/MAVEN ---
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# --- FERRAMENTAS (STS, IntelliJ, NetBeans, VS Code) ---
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.idea
+*.iws
+*.iml
+*.ipr
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+.vscode/
+
+# --- SEGURANÇA E DADOS SENSÍVEIS (IMPORTANTE) ---
+# Não envia as tuas senhas do PostgreSQL para o Git
+src/main/resources/application.properties
+
+# --- SISTEMA OPERATIVO ---
+.DS_Store
+Thumbs.db
+
+# --- LOGS E TEMPORÁRIOS ---
+*.log
+.mvn/wrapper/maven-wrapper.properties
